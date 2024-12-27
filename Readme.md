@@ -26,7 +26,7 @@ Avant de compiler ou d'exécuter le jeu, assurez-vous d'avoir installé les él�
 ### Installation de `ncurses`
 Sur les systèmes Linux, vous pouvez installer la bibliothèque avec :
 
-sudo apt-get install libncurses5-dev libncursesw5-dev
+    sudo apt-get install libncurses5-dev libncursesw5-dev
 
 Compilation et Exécution
 
@@ -34,17 +34,17 @@ Avec le Makefile
 
 1. Compiler le jeu :
 
-make
+        make
 
 
 2. Lancer le jeu :
 
-make run
+       make run
 
 
 3. Nettoyer les fichiers compilés :
 
-make clean
+       make clean
 
 
 
@@ -52,11 +52,11 @@ Sans le Makefile
 
 Pour compiler manuellement, utilisez :
 
-gcc -o snake_game snake_game.c -lncurses
+      gcc -o snake_game snake_game.c -lncurses
 
 Lancez le jeu avec :
 
-./snake_game
+    ./snake_game
 
 Contrôles
 
@@ -105,20 +105,16 @@ Votre score augmente de 10 points.
 
 Structure des fichiers
 
-mainBE.c : Le code source principal du jeu.
+ fonction_bell.c : Les fonctions principales du jeu.
 
 Makefile : Un système de construction pour simplifier la compilation et l'exécution.
 
 README.md : Ce fichier de documentation.
 
 
-Captures d'écran
-
-Ajoutez ici des captures d'écran du jeu en cours d'exécution dans le terminal pour une meilleure visualisation.
-
 Remerciements
 
-Merci à ONDO JEAN Karel (Matricule : 22U2381) pour la réalisation de ce projet.
+Merci à Bell Aqil pour la réalisation de ce projet.
 
 Licence
 
