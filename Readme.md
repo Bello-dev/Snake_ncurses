@@ -32,23 +32,23 @@ Compilation et Exécution
 
 Avec le Makefile
 
-1. Compiler le jeu :
+### 1. Compiler le jeu :
 
         make
 
 
-2. Lancer le jeu :
+### 2. Lancer le jeu :
 
        make run
 
 
-3. Nettoyer les fichiers compilés :
+### 3. Nettoyer les fichiers compilés :
 
        make clean
 
 
 
-Sans le Makefile
+## Sans le Makefile
 
 Pour compiler manuellement, utilisez :
 
@@ -78,10 +78,10 @@ Entrée : Sélectionner une option dans le menu.
 
 Comment jouer
 
-1. Démarrez le jeu depuis le menu principal.
+#### 1. Démarrez le jeu depuis le menu principal.
 
 
-2. Dirigez le serpent pour qu'il consomme la nourriture (F) tout en évitant :
+#### 2. Dirigez le serpent pour qu'il consomme la nourriture (F) tout en évitant :
 
 Les bords de l'écran.
 
@@ -91,7 +91,7 @@ Le corps du serpent lui-même.
 
 
 
-3. Chaque fois que vous mangez de la nourriture :
+#### 3. Chaque fois que vous mangez de la nourriture :
 
 Le serpent grandit.
 
@@ -99,7 +99,7 @@ Votre score augmente de 10 points.
 
 
 
-4. Survivez le plus longtemps possible pour atteindre un score élevé.
+#### 4. Survivez le plus longtemps possible pour atteindre un score élevé.
 
 
 
